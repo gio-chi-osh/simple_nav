@@ -1,0 +1,67 @@
+body {
+  font: 62.5%/1.5 Verdana, Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background-color: #aaa;
+}
+
+nav ul {
+  list-style-type: none;
+  width: 140px;
+  font: 1.2em/1 Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+nav ul ul {
+  font-size: 1em;
+}
+
+nav a:link, nav a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  padding: 3px 12px 3px 8px;
+  background-color: #666;
+  color: #fff;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+  border-left: 1px solid #ddd;  
+}
+
+nav a:hover {
+  background-color: #777;
+}
+
+nav a:active {
+  padding: 2px 13px 4px 7px;
+  background-color: #444;
+  color: #eee;
+  border-top: 1px solid #333;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #333;
+}
+
+nav li li a:link, nav li li a:visited {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-weight: normal;
+  padding: 3px 3px 3px 17px;
+  background-color: #999;
+  color: #111;
+}
+
+nav li li a:hover {
+  background-color: #aaa;
+}
+
+nav li li a:active {
+  padding: 2px 4px 4px 16px;
+  background-color: #888;
+  color: #000;
+  border-top: 1px solid #333;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #333;
+}
